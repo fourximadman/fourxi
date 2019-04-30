@@ -1,0 +1,29 @@
+﻿<!DOCTYPE html>
+<html>
+<body>
+    <div id="你点我一下">一次</div>
+    <div id="你不要点我">两次</div>
+
+</body>
+<head>
+    
+    <script>
+        var a1 = "你点我一下";
+            a2 = "你不要点我";
+        var 你点我一下 = document.getElementById(a1),
+            childa1 = a1.children[0],
+            你不要点我 = document.getElementById(a2),
+            childa2 = a2.children[0],
+ 
+       a1.onmousemove = function () {
+            console.log(`一次`)
+        }
+       a2.onmousemove = function () {
+            console.log(`两次`)
+        }
+    </script>
+</head>
+
+
+</html>
+@RenderBody()

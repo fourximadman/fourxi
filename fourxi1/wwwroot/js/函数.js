@@ -30,10 +30,25 @@
 //console.log(prime(100));
 
 //4.建立一个函数getMaxNumber() ，可以接受任意多各种类型（整数、小数、正数、负数、字符串、布尔值等）的参数，并找出里面最大的数（忽略其他类型）
-//function getMaxNumber() {
-//    var parameter = [10, 0.1, 1, -1, 'mi', true];
+//function getmaxnumber(max) {
+//    var max =
+// for (var i = 0; i < max; i++) {
+    
+//}
+//var arr = [10, 0.1, 1, -1, 5, 6];
+//var max = arr[0];
+//if (max > arr[1]) {
+
+//} 
+//if (max < arr[2]) {
+//    max = arr[2];
+//}
+//if (max > arr[3]) {
 
 //}
+
+
+
 
 //5.删除一个数组里面重复的元素
 //var arr = ['你', '我','我', '他'];  
