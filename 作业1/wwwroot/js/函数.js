@@ -51,10 +51,15 @@
 
 
 //6.使用JavaScript内置字符串函数，处理 “‘源栈’：飞哥小班教学，线下免费收看” ：“飞哥”改成“大神”，“线下”改成“线上”。 
+var str = "'源栈':飞哥小班教学,线下免费收看";
+result = str.replace("飞哥", "大神");
+result2 = str.replace("线下", "线上");
+console.log(result2);
 
 /*7.将数组['why', 'gIT', 'vs2019', 'community', 'VERSION']规范化，所有字符串：
 首字母大写开头，其他字母小写
 截去超过6个字符的部分，如'community'将变成'Commun'*/
+//let a = ['why','gIT', 'vs2019', 'community', 'VERSION']
 
 //8.创建一个函数getRandomArray(length, max) ，能返回一个长度不大于length，每个元素值不大于100随机整数数组。\ 
 
